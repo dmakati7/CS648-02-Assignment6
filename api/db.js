@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 
 let db;
 const url = process.env.DB_URL
-  || 'mongodb+srv://inventory:Sad123@cluster0.e1som.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+  || 'mongodb+srv://dmakati7:Abc123@cluster0.p5vkx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 /**
  * Connects to the databse and sets the 'db' variable to the mongo client db.
