@@ -1,31 +1,23 @@
 # Company Inventory Page
 
 This is the Fifth Assignment of CS648 course. It is a SPA created using React, served using Express, Graphql for API integration and MongoDB as the database. A simple inventory page where one can add some product and view all the products added.\
-The initial setup comes from Assignment 4 repo and this repo is a clone of that with new changes for Assignment 5.
+The initial setup comes from Assignment 4 and Assignment 5 repo and this repo is a clone of that with new changes for Assignment 6.
 
-## Initial Step
+### First Step
 
-Go to Api folder and run `npm run install` to install all the dependencies.\
-Go to Ui folder and run `npm run install` to install all the dependencies.
+Go to API folder and run `npm run install` to install all the dependencies of all node modules.\
+Go to UI folder and run `npm run install` to install all the dependencies for the same.
 
-## Development server
+### Development server
 
-Go to Api folder and run `npm run start` to bring up the Api server.\
-Go to Ui folder and run `npm run start` to bring up the UI.\
+Go to API folder and run `npm run start` to bring up the Api server.\
+Go to UI folder and run `npm run start` to bring up the UI.\
 Now Navigate to `http://localhost:8000/` to interact with the application.
 
-## GraphQL Playground
+### GraphQL Playground
 
 After starting Development Server using previous step, open `http://localhost:3000/graphql` to interact with the API using GraphQL Playground.
 
-## Compile Watch Mode
+## To MongoDB reset
 
-Go to UI folder and run `npm run watch` to make babel watch for changes in files. Make any changes and the changes will be reflected without any refresh. Make sure you have started the server as per the previous step.
-
-## MongoDB reset
-
-From Api folder, you can run `mongodb+srv://inventory:Sad123@cluster0.e1som.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" --username change scripts/init.mongo.js` and enter password as `Sad123` to reset the database with two products added initially.
-
-## Lint check
-
-To check for lint issues, go to Api and Ui folder and run `npm run lint` to get the linting issues in the respective folders.
+From Api folder, you can run mongo mongo "mongodb+srv://cluster0.p5vkx.mongodb.net/myFirstDatabase" --username dmakati7 scripts/init.mongo.js and enter password as `Abc123` to reset the database with two products added initially.
